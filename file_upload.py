@@ -1,4 +1,6 @@
 import streamlit as st
+import boto3
+import json
 
 
 def get_secret(secret_name):
