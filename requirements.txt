@@ -1,6 +1,5 @@
-pandas==1.5.0
+streamlit
+pandas
+numpy
 boto3
-snowflake_snowpark_python==1.5.0
-snowflake-snowpark-python[pandas]
-streamlit==1.24.0
 
