@@ -14,7 +14,7 @@ def upload_to_s3(file, bucket_name, secret_data):
         's3',
         aws_access_key_id=secret_data['access_key'],
         aws_secret_access_key=secret_data['secret_key'],
-        region_name='us-east-1'  # Replace with your AWS region
+        region_name=secret_data['region_name']  # Replace with your AWS region
     )
 
     try:
